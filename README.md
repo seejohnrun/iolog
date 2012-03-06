@@ -1,4 +1,4 @@
-# logio
+# iolog
 
 This is the most basic logger you could probably have in Io.
 I needed something simple for a project, so I figured I may as well publish it.
