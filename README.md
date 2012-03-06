@@ -2,7 +2,6 @@
 
 This is the most basic logger you could probably have in Io.
 I needed something simple for a project, so I figured I may as well publish it.
-
 This project will likely be evolving as I need more out of it - so feel free
 to offer any suggestions for things you'd like to see.
 
