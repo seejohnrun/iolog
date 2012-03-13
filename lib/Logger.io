@@ -27,7 +27,7 @@ Logger := Object clone do(
   # Log a certain type of message
   log := method(oftype, msg,
     transports foreach(transport,
-      transport log(oftype, msg)
+      transport asyncSend(log(oftype, msg))
     )
   )
 
