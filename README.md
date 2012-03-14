@@ -32,6 +32,16 @@ logger := Logger clone do(
 )
 ```
 
+### ConsoleTransport
+
+Transport to the console. Timestamp is optional:
+
+``` io
+ConsoleTransport clone do(
+  timestamp = false
+)
+```
+
 ## Author
 
 John Crepezzi / Email: john.crepezzi@gmail.com
