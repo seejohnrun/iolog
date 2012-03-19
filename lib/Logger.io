@@ -11,11 +11,10 @@ Logger := Object clone do(
     )
   )
 
-  # Set up log levels
-  list("info", "debug", "error", "warn") foreach(level,
-    setSlot(level, method(msg,
-      log(level, msg)
-    ))
-  )
+  debug := method(msg, log("debug", msg))
+  info  := method(msg, log("info",  msg))
+  warn  := method(msg, log("warn",  msg))
+  error := method(msg, log("error", msg))
+  fatal := method(msg, log("fatal", msg))
 
 )

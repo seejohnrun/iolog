@@ -1,10 +1,11 @@
 Importer addSearchPath("./lib")
 
 logger := StandardLogger clone
+logger debug("i'm tired...")
 logger info("hello")
 logger warn("warning!")
 logger error("error!")
-logger debug("i'm tired...")
+logger fatal("broken")
 
 logger2 := Logger clone
 logger2 transports append(ConsoleTransport clone do(
